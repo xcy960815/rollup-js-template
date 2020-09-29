@@ -1,7 +1,7 @@
 {
-    "name": "import-in-js",
+    "name": "rollup-template",
     "version": "1.0.0",
-    "description": "使用rollup打包js，并且在node.js中支持es6的import预语法",
+    "description": "使用rollup打包js，并且在node.js中支持es6的import语法",
     "main": "dist/handler.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
