@@ -1,3 +1,7 @@
-// 逻辑代码
-// xxx
-console.log('test-test')
+import lodash from 'lodash'
+export default {
+    lodash,
+    consoler: () => {
+        console.log('test-test')
+    },
+}
