@@ -44,19 +44,18 @@ export default {
             exclude: 'node_modules/**',
         }),
         // 开启服务
-        // !isProduction &&
-        serve({
-            open: false,
-            host: 'localhost',
-            port: 9009,
-            historyApiFallback: true,
-            contentBase: 'demo',
-            headers: {
-                'Access-Control-Allow-Origin': '*',
-            },
-        }),
+        !isProduction &&
+            serve({
+                open: false,
+                host: 'localhost',
+                port: 9009,
+                historyApiFallback: true,
+                contentBase: 'demo',
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                },
+            }),
         // 热更新
-        // !isProduction &&
-        livereload(),
+        !isProduction && livereload(),
     ],
 }
