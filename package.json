@@ -1,5 +1,5 @@
 {
-    "name": "rollup-template",
+    "name": "rollup-js-template",
     "version": "1.0.0",
     "description": "使用rollup打包js，并且在node.js中支持es6的import语法 可打包外部js",
     "main": "dist/index.umd.js",
