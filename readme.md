@@ -1,3 +1,33 @@
 # rollup-js-template
 
-本模本是 rollup 打包 js 的模版 支持线上压缩、本地 server、热更新、多格式输出等功能
+> 用 rollup 打包 js 的模版
+
+### 安装
+
+```shell
+npm i
+```
+
+### 启动开发环境
+
+```shell
+npm run dev
+```
+
+### 启动软连接
+
+```shell
+npm run link
+```
+
+### 启动本地测试
+
+```shell
+npm run serve
+```
+
+### 发布打包
+
+```shell
+npm run build
+```
